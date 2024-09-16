@@ -26,6 +26,12 @@ public:
 		rez.z = z + b.z;
 		return rez;
 	}
+	Point3D& Sum(int _x, int _y, int _z) {
+		x = x + _x;
+		y = this->y + _y;
+		z = this->z + _z;
+		return *this;
+	}
 }
 ;
 int main(){
