@@ -14,6 +14,11 @@ public:
 		y = _y;
 		z = _z;
 	}
+	void Input(int x, int y, int z) {
+		this->x = x;
+		this->y = y;
+		this->z = z;
+	}
 }
 ;
 int main(){
