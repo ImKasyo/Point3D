@@ -19,6 +19,13 @@ public:
 		this->y = y;
 		this->z = z;
 	}
+	Point3D Sum(Point3D& b) {
+		Point3D rez;
+		rez.x = x + b.x; 
+		rez.y = y + b.y;
+		rez.z = z + b.z;
+		return rez;
+	}
 }
 ;
 int main(){
