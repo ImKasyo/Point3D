@@ -53,5 +53,13 @@ public:
 }
 ;
 int main(){
+	Point3D a(1, 2, 3);
+	Point3D b(4, 5, 6);
+	a.Sum(b);
+	Point3D c = a.Sum(b);
+	c = a.Sum(9, 8, 7);
+	a.Min(5, 0, 5);
+	a.Multi(2, 3, 4);
+	a.Del(2, 3, 4);
 
 }
