@@ -32,6 +32,12 @@ public:
 		z = this->z + _z;
 		return *this;
 	}
+	Point3D& Min(int _x, int _y, int _z) {
+		x = x + _x;
+		y = y + _y;
+		z = z + _z;
+		return *this;
+	}
 }
 ;
 int main(){
