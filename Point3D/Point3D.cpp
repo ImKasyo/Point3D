@@ -38,6 +38,12 @@ public:
 		z = z + _z;
 		return *this;
 	}
+	Point3D& Del(int _x, int _y, int _z) {
+		x = x + _x;
+		y = y + _y;
+		z =z + _z;
+		return *this;
+	}
 }
 ;
 int main(){
