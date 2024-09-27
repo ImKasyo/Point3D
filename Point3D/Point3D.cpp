@@ -2,6 +2,7 @@
 using namespace std;
 class Point3D {
 	int x, y, z;
+	static int count;
 public:
 	Point3D()
 	{
@@ -49,6 +50,9 @@ public:
 		y = y * _y;
 		z = z * _z;
 		return *this;
+	}
+	~Point3D() {
+		count--;
 	}
 }
 ;
