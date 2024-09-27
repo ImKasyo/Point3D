@@ -51,6 +51,9 @@ public:
 		z = z * _z;
 		return *this;
 	}
+	static int GetCount() {
+		return count;
+	}
 	~Point3D() {
 		count--;
 	}
